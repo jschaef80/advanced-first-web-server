@@ -17,14 +17,14 @@ Use Postman to test the routes created in the following sections. Your base url 
 
 * Create the following routes:
 
-  * GET /users
+  * GET /users √√√
     * Give your server the ability to respond to a GET request with a path "/users" and return the users array from state.js
     * Ex. `res.json(users)`
 
-  * GET /users/1
+  * GET /users/1 √√√
     * Give your server the ability to respond to a GET request with a path "/users/1" and return the first user object from the users array from state.js
 
-  * POST /users
+  * POST /users √√√
     * Give your server the ability to respond to a POST request with a path "/users" and add a hard coded user object to the users array from state.js. Use `res.json()` to send the last user in the array (should be the new one) back to the client.
     * If you do another GET request you should see this added
     * You will need to create the hard coded user mentioned above
